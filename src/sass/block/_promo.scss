@@ -1,0 +1,45 @@
+.promo {
+   height: 800px;
+   padding: 248px 133px 98px 133px;
+   background: url(../../img/promo/promoBg.jpg) center (center / cover) no-repeat;
+   h1 {
+      margin-top: 34px;
+      font-weight: 400;
+      font-size: 48px;
+      text-align: center;
+      color: #FFFFFF;
+   }
+   &__logo {
+      display: block;
+      margin: 0 auto;
+      width: 27%;
+      height: 90px;
+   }
+   &__subtitle {
+      margin-top: 34px;
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+   }
+   &__wite-line {
+      position: relative;
+      display: block;
+      margin: 0 auto;
+      margin-top: 116px;
+      width: 33.75px;
+      height: 52.5px;
+      border: 2px solid #FFFFFF;
+      border-radius: 40%;
+   }
+   &__wite-vertical {
+      position: absolute;
+      top: 30%;
+      left: 30%;
+      width: 10px;
+      border: 2px solid #FFFFFF;
+      transform: rotate(90deg);
+   }
+}

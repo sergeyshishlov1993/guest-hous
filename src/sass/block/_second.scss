@@ -1,0 +1,26 @@
+.second {
+   padding: 100px 0 89px 0;
+   min-height: 410px;
+   background: #FAF8F0;
+   &__wrapper {
+      margin-top: 33px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-start;
+   }
+   &__descr {
+      width: 42%;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #333333;
+   }
+   &__but-descr {
+      margin-bottom: 18px;
+      width: 343px;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      color: #333333;
+   }
+}

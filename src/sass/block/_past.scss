@@ -1,0 +1,75 @@
+.past {
+   padding: 100px 116px 70px 136px;
+   background: #FAF8F0;
+   &__title {
+      margin-top: 30px;
+      font-weight: 400;
+      font-size: 32px;
+      text-align: center;
+      color: #52503B;
+   }
+   &__decsr {
+      margin: 0 auto;
+      margin-top: 14px;
+      width: 520px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #52503B;
+   }
+   &__wrapper {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &-reviews {
+         padding: 32px 47px 31px 31px;
+         margin-right: 20px;
+         width: 584px;
+         background: #FFFFFF;
+      }
+      &-title {
+         margin-top: 10px;
+         font-weight: 400;
+         font-size: 18px;
+         color: #333333;
+      }
+      &-descr {
+         width: 400px;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 20px;
+         color: #333333;
+         &-wrap {
+            position: relative;
+         }
+         &-autor {
+            margin-top: 19px;
+            margin-left: 10px;
+            font-weight: 400;
+            font-size: 14px;
+            color: #333333;
+         }
+         &-yellow {
+            position: absolute;
+            bottom: 1px;
+            width: 2px;
+            height: 20px;
+            background: #E08631;
+         }
+      }
+   }
+   &__circle {
+      display: flex;
+      justify-content: flex-end;
+      &-black {
+         margin-top: 40px;
+         margin-right: 10px;
+         width: 60px;
+         height: 60px;
+         border: 2px solid #52503B;
+         border-radius: 30px;
+      }
+   }
+}

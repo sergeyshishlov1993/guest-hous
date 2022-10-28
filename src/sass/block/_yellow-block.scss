@@ -1,0 +1,9 @@
+.yellow-block {
+   margin: 0 auto;
+   width: 42px;
+   height: 8px;
+   background: #E08631;
+   &_escape {
+      margin: initial;
+   }
+}

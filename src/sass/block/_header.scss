@@ -1,0 +1,30 @@
+.header {
+   height: 80px;
+   padding: 18px 0 18px 0;
+   background: #52503B;
+   &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+   &__menu {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      li {
+         margin-left: 24px;
+         a {
+            font-weight: 400;
+            font-size: 15px;
+            color: #FFFFFF;
+            text-decoration: none;
+         }
+      }
+   }
+   &__book {
+      font-weight: 400;
+      font-size: 16px;
+      color: #52503B;
+      text-decoration: none;
+   }
+}

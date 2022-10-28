@@ -1,0 +1,34 @@
+.escape {
+   padding: 100px 150px 109px 135px;
+   &__title{
+      font-weight: 400;
+      font-size: 32px;
+      color: #52503B;
+
+   }
+   &__descr{
+      width: 400px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #52503B;
+   }
+   &__wrapper {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      &-icons{
+         margin-top: 50px;
+         display: flex;
+         align-items: center;
+      }
+      &-descr {
+         margin-left: 16px;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 20px;
+         color: #333333;
+      }
+   }
+}

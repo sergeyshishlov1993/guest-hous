@@ -1,0 +1,24 @@
+body{
+   font-family:  'Montserrat' serif;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+.containers {
+   max-width: 1050px;
+   margin: 0 auto;
+}
+@import"./block/header";
+@import"./block/button";
+@import"./block/promo";
+@import"./block/second";
+@import"./block/yellow-block";
+@import"./block/there";
+@import"./block/kitchen";
+@import"./block/sleeping";
+@import"./block/escape";
+@import"./block/past";
+@import"./block/wifi";
+@import"./block/together";
+@import"./block/contact";
+@import"./block/footer";
